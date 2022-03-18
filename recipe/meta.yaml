@@ -20,7 +20,7 @@ requirements:
     - pip
     - python >=3.7
   run:
-    - asyncssh <2.9,>=2.7.1
+    - asyncssh <3,>=2.7.1
     - dulwich >=0.20.34
     - fsspec >=2021.7.0
     - funcy >=1.14
