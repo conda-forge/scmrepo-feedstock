@@ -1,5 +1,5 @@
 {% set name = "scmrepo" %}
-{% set version = "0.0.13" %}
+{% set version = "0.0.14" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/scmrepo-{{ version }}.tar.gz
-  sha256: 51be17cffd1e71217284c94458e994fd97c779746f5781c8098033c466ef9419
+  sha256: 9b642c928cbe65b2411a76447e93b6f7ed3ddc5b936c91327deb780a0acd6a05
 
 build:
   number: 0
@@ -26,7 +26,7 @@ requirements:
     - funcy >=1.14
     - gitpython >3
     - pathspec <0.10.0,>=0.9.0
-    - pygit2 >=1.5.0
+    - pygit2 >=1.7.2
     - pygtrie >=2.3.2
     - python >=3.7
 
