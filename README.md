@@ -1,11 +1,11 @@
-About scmrepo
-=============
+About scmrepo-feedstock
+=======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/scmrepo-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/iterative/scmrepo
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/scmrepo-feedstock/blob/main/LICENSE.txt)
 
 Summary: SCM wrapper and fsspec filesystem for Git for use in DVC
 
