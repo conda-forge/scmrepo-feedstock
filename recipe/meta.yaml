@@ -1,5 +1,5 @@
 {% set name = "scmrepo" %}
-{% set version = "1.6.0" %}
+{% set version = "2.0.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/scmrepo-{{ version }}.tar.gz
-  sha256: 0092c3f99da7db327602fb1f655b9cca9a936ffabee7ab79eb6be23d627af7a2
+  sha256: 47c8fa943550c5da89c99482df29cdffb44f36bbbe8e87e07f67b8e32d2f1893
 
 build:
   number: 0
@@ -31,7 +31,7 @@ requirements:
     - pygtrie >=2.3.2
     - python >=3.8
     - shortuuid >=0.5.0
-    - dvc-objects >=1.0.1,<3
+    - dvc-objects >=3,<4
     - dvc-http >=2.29.0
 
 test:
