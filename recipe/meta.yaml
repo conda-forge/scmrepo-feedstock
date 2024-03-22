@@ -18,7 +18,7 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.8
+    - python >=3.9
     - setuptools_scm >=6.3.1
   run:
     - aiohttp-retry >=2.5.0
