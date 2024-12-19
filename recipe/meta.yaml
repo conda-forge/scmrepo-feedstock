@@ -11,14 +11,14 @@ source:
   sha256: 2768f5da1d4c656e6b0e35e3a9e525e64f184cacf5d7b56b436f9384b317ee6e
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
     - pip
-    - python >=3.9
+    - python {{ python_min }}
     - setuptools_scm >=6.3.1
   run:
     - aiohttp-retry >=2.5.0
@@ -31,7 +31,7 @@ requirements:
     - pathspec >=0.9.0
     - pygit2 >=1.14.0
     - pygtrie >=2.3.2
-    - python >=3.8
+    - python >={{ python_min }}
 
 test:
   imports:
@@ -41,6 +41,7 @@ test:
     - pip check
   requires:
     - pip
+    - python {{ python_min }}
 
 about:
   home: https://github.com/iterative/scmrepo
