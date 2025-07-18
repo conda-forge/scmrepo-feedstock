@@ -1,5 +1,5 @@
 {% set name = "scmrepo" %}
-{% set version = "3.3.11" %}
+{% set version = "3.3.12" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/scmrepo-{{ version }}.tar.gz
-  sha256: eb25424a7cc1290e3e0aeaa8a39bb8347b9abc5fab33356e8a70db530d7d06b6
+  sha256: b88ce9ea665e83497b2878cb0140f4bb005924977e7ce6f492b27451c7485ebd
 
 build:
   number: 0
@@ -24,7 +24,7 @@ requirements:
     - aiohttp-retry >=2.5.0
     - tqdm
     - asyncssh >=2.13.1,<3
-    - dulwich >=0.22.1
+    - dulwich >=0.23.1
     - fsspec >=2024.2.0
     - funcy >=1.14
     - gitpython >3
