@@ -1,5 +1,5 @@
 {% set name = "scmrepo" %}
-{% set version = "3.5.1" %}
+{% set version = "3.5.2" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/scmrepo-{{ version }}.tar.gz
-  sha256: b7266d6af10683d235428a4148b8527d0bb31109e60e51184866efd5c31ae515
+  sha256: c951d98cd36aead02a69a75926455a163d435c6f996c76b92be5f0c717551f28
 
 build:
   number: 0
